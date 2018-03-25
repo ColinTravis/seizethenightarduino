@@ -40,7 +40,7 @@ void loop() {
     radio.read(&senderData, sizeof(senderData));
     if (DEBUG) Serial.println(senderData);
     Keyboard.print(senderData);
-    Serial.println("B ");
+//    Serial.println("B ");
     Serial.println(senderData);
     }
   }
